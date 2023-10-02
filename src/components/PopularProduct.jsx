@@ -11,7 +11,7 @@ export default function PopularProduct({ produkName, products }) {
     <div className="mb-3">
       <Row>
         <Col className="mb-3">
-          <h4 className="fw-bold text-dark">Promo {produkName}</h4>
+          <h4 className="fw-bold text-dark">{produkName}</h4>
         </Col>
         <Col className="mb-3">
           <a

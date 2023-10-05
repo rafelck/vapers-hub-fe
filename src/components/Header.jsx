@@ -28,13 +28,13 @@ export default function Header() {
   return (
     <>
       <Navbar
-        bg="light"
+        bg="white"
         data-bs-theme="light"
         className="shadow-sm"
         sticky="top"
         expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#home" className="fw-bold">
+          <Navbar.Brand href="/" className="fw-bold">
             vapershub
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

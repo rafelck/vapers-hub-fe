@@ -1,4 +1,3 @@
-import { Container } from "react-bootstrap";
 import Banner from "./Banner";
 import Products from "./Products";
 
@@ -103,11 +102,9 @@ export default function Home() {
   return (
     <>
       <div className="mt-3">
-        <Container>
-          <Banner banners={banners} />
-          <Products produkName="Mod Device" products={productsMod} />
-          <Products produkName="Liquid" products={productsLiquid} />
-        </Container>
+        <Banner banners={banners} />
+        <Products produkName="Mod Device" products={productsMod} />
+        <Products produkName="Liquid" products={productsLiquid} />
       </div>
     </>
   );

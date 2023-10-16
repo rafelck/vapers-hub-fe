@@ -1,4 +1,4 @@
-import { Container, Card, Row, Col } from "react-bootstrap";
+import { Card, Row, Col } from "react-bootstrap";
 import Icon from "@mdi/react";
 import { mdiStar } from "@mdi/js";
 
